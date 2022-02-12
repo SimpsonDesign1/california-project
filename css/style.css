@@ -1,0 +1,65 @@
+/* sitewide styles */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif; 
+}
+
+/* navigation styles */
+#navigation-hero {
+  /* border: 1px solid red; */
+}
+.navbar {
+  /* border: 1px solid yellow; */
+  background-color: transparent !important;
+  z-index: 99;
+  height: 75px;
+}
+
+#navbarNav {
+  /* border: 1px solid blue; */
+}
+.navbar {
+  
+}
+
+
+/* jumbotron styles */
+
+.display-4 {
+  font-weight: 800;
+}
+.jumbotron {
+  margin-top: -75px;
+  background-image: url("/images/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  height: 75vh;
+}
+.hero-container {
+  margin-top: 100px;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+}
+.hero-container * span {
+  font-weight: 300;
+}
+hr {
+  max-width: 400px;
+  background-color: white !important;
+}
+
+/* adventure card section */
+
+
+/* destinations section */
+
+
+/* footer */
