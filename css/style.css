@@ -24,8 +24,8 @@ body {
 #navbarNav {
   /* border: 1px solid blue; */
 }
-.navbar {
-  
+.navbar-brand > img {
+  max-width: 200px;
 }
 
 
