@@ -82,6 +82,7 @@ hr {
 .card {
   border: 0 !important;
   border-radius: 0 !important;
+  margin-bottom: 30px;
 }
 .card-img {
   border: 0;
@@ -131,10 +132,93 @@ hr {
 /* destinations section */
 
 #visit {
-  padding:200px 50px 100px;
+  padding:200px 50px 200px;
   background-image:url("../images/Hollywood.png");
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
+.cardContainer {
+  position: relative;
+}
+.card-body {
+  position:  absolute;
+  align-items: center;
+  right: 50;
+  bottom: 0;
+  background-color: white;
+  width: 80%;
+  z-index: 10;
+}
+.card-img-top {
+  /* height: 450px; */
+  display: block;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card-text-visit {
+  color: black;
+}
+#locations {
+  padding:200px 0px 100px;
+  background-image:url("../images/hollywood.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#locations .location-card {
+
+  background-size: 100%;
+  height: 450px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-color: #edeaea;
+  }
+
+#locations .location-card {
+
+  background-size: 100%;
+  height: 450px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-bottom: 20px;
+  background-repeat: no-repeat;
+  background-color: #edeaea;
+  }
+
+.yosemite {
+background-image: url(../images/yosemite.png);
+}
+
+.joshua {
+background-image: url(../images/joshua-tree.png);
+}
+
+.sanfran {
+background-image: url(../images/sf-background.png);
+}
+
+#locations .location-card .card-items {
+background-color: white;
+margin: 0px 30px 50px 30px;
+padding:20px;
+}
+
+.location-item .card-items h3 {
+font-size:20px;
+width:45%;
+}
+
+.location-item .card-items .heading {
+display:flex;
+justify-content: space-between;
+}
+.star {
+  width: 24px;
 }
 
 
