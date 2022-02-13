@@ -225,7 +225,7 @@ justify-content: space-between;
 /* Mailing List     */
 
 #subscribe {
-    background-image: url("../images/sf-bridge.png");
+    background-image: url(../images/SF-Bridge.png);
     color:white;
     text-align: center;
     background-size: cover;
