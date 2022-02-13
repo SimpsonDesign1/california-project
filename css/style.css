@@ -42,7 +42,7 @@ p {
 }
 .jumbotron {
   margin-top: -75px;
-  background-image: url("../images/hero.png");
+  background-image: url(../images/hero.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:center;
@@ -126,41 +126,9 @@ hr {
   background-color: rgb(184, 140, 28);
 }
 
-
-
-/* destinations section */
-
-#visit {
-  padding:100px 50px 100px;
-  background-image:url("../images/Hollywood.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-.cardContainer {
-  position: relative;
-}
-.card-body {
-  position:  absolute;
-  align-items: center;
-  right: 50;
-  bottom: 0;
-  background-color: white;
-  width: 80%;
-  z-index: 10;
-}
-.card-img-top {
-  /* height: 450px; */
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.card-text-visit {
-  color: black;
-}
 #locations {
   padding:200px 0px 100px;
-  background-image:url("../images/hollywood.png");
+  background-image:url(../images/Hollywood.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
